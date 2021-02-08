@@ -13,7 +13,7 @@ CREATE TABLE nasdaqs(
 	opening_price DEC,
 	high DEC,
 	low DEC,
-	closing_price DEC
+	closing_price DEC,
 	adj_close DEC,
 	volume BIGINT);
 	
