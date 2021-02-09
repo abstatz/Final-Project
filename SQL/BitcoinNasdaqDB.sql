@@ -6,7 +6,7 @@ CREATE TABLE bitcoin(
 	low DEC,
 	closing_price DEC);
 	
-COPY bitcoin FROM 'C:\Users\kelse\OneDrive\Desktop\Final-project\Data\Bitcoin.txt' DELIMITER ',' CSV HEADER;
+COPY bitcoin FROM 'C:\Users\kelse\OneDrive\Desktop\Final-project\SQL\Data\Bitcoin.txt' DELIMITER ',' CSV HEADER;
 
 CREATE TABLE nasdaqs(
 	date DATE,
@@ -17,7 +17,7 @@ CREATE TABLE nasdaqs(
 	adj_close DEC,
 	volume BIGINT);
 	
-COPY nasdaqs FROM 'C:\Users\kelse\OneDrive\Desktop\Final-project\Data\nasdaq.txt' DELIMITER ',' CSV HEADER;
+COPY nasdaqs FROM 'C:\Users\kelse\OneDrive\Desktop\Final-project\SQL\Data\nasdaq.txt' DELIMITER ',' CSV HEADER;
 );
 
 -- Modify Tables and Create Primary Keys
