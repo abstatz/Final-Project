@@ -14,8 +14,9 @@ In this project we will be analyzing Bitcoin data against NASDAQ data to see if 
 ### Beautiful Soup:ramen::
 <br>We use Beautiful Soup in Python to scrape the current price of both Bitcoin and Nasdaq. We use CoinDesk for the price of Bitcoin and Yahoo Finance for the price of $NDAQ.</br>
 
-### PostgreSQL:elephant::
-<br> We chose to use a PostgreSQL database for our collected data. We queried the data to find MIN, MAX, and AVG prices of both.
+### PostgreSQL:elephant: & SQL Alchemy:alembic::
+<br> We chose to use a PostgreSQL database for our collected data. We queried the data to find MIN, MAX, and AVG prices of both.</br>
+<br> We connected the SQL DB from Postgres into Pandas using SQLAlchemy.
 
 ### Tableau:bar_chart::
 <br> We imported our data into Tableau and created visualizations of the comparisons of actual versus predicted prices.</br>
