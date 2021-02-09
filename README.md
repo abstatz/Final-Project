@@ -1,4 +1,4 @@
-# Bitcoin vs Nasdaq
+# Bitcoin versus Nasdaq
 ## By: The Gamestonks:rocket:- @kelseycox, @tylerlvaughn, @akspel, @abstatz
 
 ### About this Project:
@@ -16,6 +16,9 @@ In this project we will be analyzing Bitcoin data against NASDAQ data to see if 
 
 ### PostgreSQL:elephant::
 <br> We chose to use a PostgreSQL database for our collected data. We queried the data to find MIN, MAX, and AVG prices of both.
+
+### Tableau:bar_chart::
+<br We imported our data into Tableau and created vizaulations of the comparisons of actual versus predicted prices.</br>
 
 ### About Bitcoin:moneybag::
 <br> Bitcoin is a peer-to-peer cryptocurrency that was created in 2009 by a person under the alias Satoshi Nakamoto. Bitcoin is unregulated and transactions can be done globally, anonymously, and instantly. Bitcoin is powered by Blockchain technology where transactions are constant- the cryptocurrency market never opens nor closes. Blockchain is a database or network that stores data in blocks that are then chained together where authority is decentralized and most transparent. </br>
